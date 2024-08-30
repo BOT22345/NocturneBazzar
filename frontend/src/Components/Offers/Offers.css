@@ -1,0 +1,53 @@
+
+.offers{
+    width:65%;
+    height:75vh;
+    display:flex;
+    position:relative;
+    padding:10px 100px;
+    top:20vh;
+    left:20vh; 
+    background:linear-gradient(180deg, #b406c062 0%, #e1ffea22 70% );
+
+}
+
+.mainContainerOffers{
+    height:100vh;
+    /* margin-top:100px;  */
+    background:url("../Assets/hero.jpg");
+    background-size:cover;  
+}
+.offers-left{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offers-left h1{
+    color:white;
+    font-size:80px;
+    font-weight:600;
+}
+.offers-left p{
+    color:white;
+    font-size:22px;
+    font-weight:600;
+}
+.offers-left button{
+    width:400px;
+    height:70px;
+    border-radius:35px;
+    background:magenta;
+    border:none;
+    color:white;
+    font-size:22px;
+    font-weight:500;
+    margin-top:30px;
+    cursor:pointer;
+}
+.offers-right{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}

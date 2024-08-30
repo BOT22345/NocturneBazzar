@@ -1,0 +1,18 @@
+.logo-image{
+    height:100px;
+    width:100px;
+}
+.admin-profile{
+    height:100px;
+    width:75px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom:1px;
+    background:white;
+}
+

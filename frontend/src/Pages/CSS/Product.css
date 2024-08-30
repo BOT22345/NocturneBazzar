@@ -1,0 +1,9 @@
+.ProductMainContainer{
+    background-image:url('../../Components/Assets/hero.jpg');
+    background-position: left 400px top 20px;
+    background-size:center;
+    background-repeat:repeat;
+    height: 2300px;
+    margin-top:-60px;
+    margin-bottom:-20px;
+}

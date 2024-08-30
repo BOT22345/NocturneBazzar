@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    background-image:url("../Assets/navbarBg.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.footerLogo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+.footerLogo p{
+    color: white;
+    font-size:46px;
+    font-weight:700;
+}
+.footerLogo img{
+    height:80px;
+    width:60px;
+}
+.footerLinks{
+    display: flex;
+    list-style:none;
+    gap:50px;
+    color:white;
+    font-size:20px;
+}
+.footerLinks li{
+    cursor:pointer;
+}
+.footerSocialIcons{
+    display:flex;
+    gap:20px;
+}
+.footerIconsContainer{
+    padding:10px;
+    padding-bottom:6px;
+    background:white;
+    border:1px solid #551a8b;
+}
+.footerCopyright{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    width:100%;
+    margin-bottom:30px;
+    font-size:20px;
+}
+.footerCopyright hr{
+    width:80%;
+    border:none;
+    border-radius:10px;
+    height:3px;
+    background:#551A8B;
+}
+
+.footerCopyright p{
+    color:white;
+}
+.whatsappImg img{
+    height:30px;
+    width:20px;
+}

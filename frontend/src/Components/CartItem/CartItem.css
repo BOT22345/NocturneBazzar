@@ -1,0 +1,125 @@
+.CartItems{
+    background:url('../Assets/hero.jpg');
+    /* margin:100px 170px; */
+    /* background-size:cover; */
+    /* height:300px; */
+    height:1000px;
+}
+.CartItems hr{
+    height:3px;
+    margin-top:8px;
+    margin-bottom:8px;
+    background-color:#551A8B;
+    border:0;
+}
+.CartItemQuantity{
+    color:black;
+}
+.CartItemsFormat{
+    display:grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr ;
+    align-items:center;
+    gap:75px;
+    padding:20px 0px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.CartItemsFormatMain{
+    font-size:17px;
+    font-weight:500;
+}
+
+.CartItemProductIcon{
+    height: 62px;   
+}
+
+.CartItemRemoveIcon{
+    width:40px;
+    margin:0px 40px;
+    cursor:pointer;
+    height:40px;
+}
+
+.CartItemQuantity{
+    width:64px;
+    height:50px;
+    border: 2px solid #ebebeb;
+    background:white;
+    border-radius:10px;
+    font-size:20px;
+}
+.CartItemsTotal button{
+    height:58px;
+    width:262px;
+    outline:none;
+    border:none;
+    background:#551A8B;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.CartItemsDown{
+    display: flex;
+    margin:100px 0px;
+
+}
+
+.CartItemsTotal{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-right:200px;
+    gap:40px;
+
+}
+
+.CartItemsTotalItems{
+    display:flex;
+    justify-content: space-between;
+    padding:15px 0px;
+}
+.CartItemsPromoCode{
+    flex:1;
+    font-size:16px;
+    font-weight:500;
+}
+.CartItemsPromoCode p{
+    color:white;
+}
+
+.CartItemsPromoBox{
+    width: 470px;
+    margin-top:15px;
+    padding-left:20px;
+    height:58px;
+    background:#551A8B;
+}
+.CartItemsPromoBox input{
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:16px;
+    width:300px;
+    height:50px;
+    color:black;
+}
+
+.CartItemsPromoBox button{
+    width:170px;
+    height:58px;
+    font-size:16px;
+    border-radius: 10px;
+    background:grey;
+    color:black;
+    cursor:pointer;
+}
+
+.CartItemsTotalItem p{
+    color:white;
+}
+
+.CartItemsTotalItem h3{
+    color:white;
+}

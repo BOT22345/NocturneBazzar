@@ -1,0 +1,29 @@
+.popular{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    height:90vh;
+    background-image:url('../Assets/WomenShopBG.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.popular h1{
+    color:white;
+    font-size:50px;
+    font-weight:600;
+}
+
+.popular hr{
+    width:400px;
+    height:6px;
+    border-radius:10px;
+    background: #551A8B;
+}
+
+.popularItem{
+    margin-top:50px;
+    display:flex;
+    color:white;
+}

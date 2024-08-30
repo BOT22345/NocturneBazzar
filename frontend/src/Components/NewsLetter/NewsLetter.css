@@ -1,0 +1,63 @@
+.newsLetterContainer{
+    height:90vh;
+    /* margin-top:100px;  */
+    background:url("../Assets/hero.jpg");
+    background-size:cover;  
+}
+.newsLetter{
+    width:90%;
+    height:75vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    /* padding:0px 140px; */
+    margin-bottom:150px;
+    background:linear-gradient(180deg, #b406c062 0%, #e1ffea22 70% );
+    gap:30px;
+    position:relative;
+    top:10vh;
+}
+.newsLetter h1{
+    color:white;
+    font-size:55px;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.newsLetter p{
+    color:white;
+    font-size:20px;
+    padding-bottom:60px;
+}
+
+.newsLetter div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    width:730px;
+    height:70px;
+    border-radius:80px;
+    border:1px solid grey;
+}
+
+.newsLetter input{
+    width:500px;
+    margin-left:30px;
+    border:none;
+    outline:none;
+    color:black;
+    font-family:Poppins;
+    font-size:16px
+}
+
+.newsLetter div button{
+    width:210px;
+    height:70px;
+    border-radius:80px;
+    background:black;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}

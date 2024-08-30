@@ -1,0 +1,56 @@
+.Banner{
+    display:block;
+    margin:30px auto;
+    width:82%;
+    border-radius:0px;
+}
+.shopCategoryIndexSort{
+    display:flex;
+    margin:0px 170px;
+    justify-content:space-between;
+    align-items:center;
+}
+.shopCategory-sort{
+    padding :10px 20px;
+    border-radius:40px;
+    border:1px solid #888;
+}
+.shopCategoryIndexSort p span{
+    font-weight:600;
+}
+
+.shopCategory-products{
+    margin: 20px 0px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    row-gap:20px;
+    column-gap:10px;
+}
+.ShopCategoryMainContainer{
+    background-image:url('../../Components/Assets/hero.jpg');
+    background-repeat: repeat;
+    background-size:contain;
+    margin-top:-30px;
+    margin-bottom:-20px;
+    padding:60px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    color:white;
+
+}
+.ShopCategoryLoadMore{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    margin-top:100px;
+    width:233px;
+    height:69px;
+    border-radius:75px;
+    background:magenta;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+}
