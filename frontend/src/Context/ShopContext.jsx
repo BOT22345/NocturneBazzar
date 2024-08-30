@@ -16,7 +16,7 @@ export const ShopContext =createContext(null);
         const [cartItems,setCartItems]=useState(getDefaultCart());
 
         useEffect(()=>{
-           const MyData= fetch('http://localhost:4000/allproduct')
+           const MyData= fetch('https://nocturnebazzar-backend.onrender.com/allproduct')
             .then((response)=>response.json())
             .then((data)=>{setAll_product(data)})
             console.log(MyData);
