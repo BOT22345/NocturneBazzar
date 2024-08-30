@@ -1,11 +1,13 @@
 import { useContext } from 'react';
 import './CartItem.css';
 import { ShopContext } from '../../Context/ShopContext';
+import myProduct from '../Assets/all_product'
 import CrossIcon from '../Assets/cross_icon.jpg'
 
 function CartItem(){
-
-    const {all_product,cartItems,removeFromCart,getTotalCartAmount}=useContext(ShopContext)
+    const all_product=myProduct;
+    const cartItems=myProduct;
+    const {removeFromCart,getTotalCartAmount}=useContext(ShopContext)
 
     return <div className="CartItems">
         <div className="CartItemsFormat">
@@ -25,8 +27,8 @@ function CartItem(){
                                 <p>Rs.{e.name}</p>
                                 <p>Rs.{e.new_price}</p>
                                 <button className="CartItemQuantity">{cartItems[e.id]}</button>
-                                <p>Rs.{e.new_price*cartItems[e.id]}</p>
-                                <img className='CartItemRemoveIcon' src={CrossIcon} onClick={()=>{removeFromCart(e.id)}} alt=""></img>
+                                {/* <p>Rs.{e.new_price*cartItems[e.id]}</p> */}
+                                {/* <img className='CartItemRemoveIcon' src={CrossIcon} onClick={()=>{removeFromCart(e.id)}} alt=""></img> */}
                             </div>
                         <hr></hr>
                         </div>

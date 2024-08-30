@@ -6,9 +6,11 @@ import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import './CSS/Product.css'
 import DescriptionBox from '../Components/DescriptionBox/DescriptionBox';
 import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
+import myProduct from '../Components/Assets/all_product'
 
 function Product(){
-    const {all_product}=useContext(ShopContext);
+    // const {all_product}=useContext(ShopContext);
+    const all_product=myProduct
     const {productId}=useParams();
     const product=all_product.find((e)=>e.id===+productId);
     return <div className='ProductMainContainer'>

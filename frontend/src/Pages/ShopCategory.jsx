@@ -3,8 +3,10 @@ import { ShopContext } from '../Context/ShopContext';
 import './CSS/ShopCategory.css';
 import dropDown from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
+import myProduct from '../Components/Assets/all_product';
 function ShopCategory(props){
-    const {all_product}=useContext(ShopContext)
+    // const {all_product}=useContext(ShopContext);
+    const all_product=myProduct;
     return <div className="ShopCategoryMainContainer">
 
     <div className="shopCategory">
