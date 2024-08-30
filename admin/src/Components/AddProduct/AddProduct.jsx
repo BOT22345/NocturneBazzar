@@ -33,7 +33,7 @@ function AddProduct() {
             formData.append('product', image);
 
             // Upload image first
-            await fetch('http://localhost:4000/upload', {
+            await fetch('https://nocturnebazzar-backend.onrender.com/upload', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -48,7 +48,7 @@ function AddProduct() {
                 console.log(product);
 
                 // Add product details with image URL
-                await fetch('http://localhost:4000/addproduct', {
+                await fetch('https://nocturnebazzar-backend.onrender.com/addproduct', {
                     method: 'POST',
                     headers: {
                         Accept: 'application/json',
